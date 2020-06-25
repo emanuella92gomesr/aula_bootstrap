@@ -7,7 +7,8 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<!--<button type="button" class="btn btn-primary">Primary</button>-->
+		<!--<button type="button" class="btn btn-primary">Primary</button>
+			Criação do menu superior-->
 		<nav class="navbar navbar-expand-lg navbar-light margin">
 			<a class="navbar-brand" href="#">
 				<img src="img/pngwing.com.png" width="220px" height="150px">
@@ -18,15 +19,15 @@
 						<a class="nav-link" href="#quemsomos">Quem somos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Parceiros</a>
+						<a class="nav-link" href="#parceiros">Parceiros</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Serviços</a>
+						<a class="nav-link" href="#servicos">Serviços</a>
 					</li>
 				</ul>
 			</div>			
 		</nav>	
-
+		<!--Adição de imagem em um container-->
 		<section id="quemsomos">
 			<div class="container-fluid quem-somos text-center margin">
 				<h3 class="margin">Quem somos</h3>
@@ -34,6 +35,57 @@
 				<h3>Somos um time comprometido com os resultados.</h3>
 			</div>
 		</section>
-	</body>
+		<!--Lista de navegação com imagens-->
+		<selection id="parceiros">
+			<div class="container-fluid text-center margin parceiros">
+				<h3 class="margin">Parceiros</h3>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="img/logo.png" width="100%">
+						</div>
+						<div class="col-lg-4">
+							<img src="img/logo1.jpeg" width="100%">
+						</div>
+						<div class="col-lg-4">
+							<img src="img/logo2.png" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</selection>
 
+		<!--Lista de navegação dentro de container utilizando imagens-->
+		<section id="servicos">
+			<div class="container-fluid text-center margin servicos">
+				<h3 class="margin">Serviços</h3>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+							<img src="img/aplicativo.jpg" width="100%">
+						</div>
+						<div class="col-lg-4">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+							<img src="img/coding.jpg" width="100%">
+						</div>
+						<div class="col-lg-4">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+							<img src="img/cliente2.jpeg" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="container-fluid text-center bg-footer margin">
+			<p>Desenvolvido por Emanuella Gomes</p>
+		</footer>
+	</body>
 </html>
